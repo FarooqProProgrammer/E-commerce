@@ -10,6 +10,7 @@ import SingleProduct from './pages/SingleProduct'
 import { PersistGate } from 'redux-persist/integration/react'
 import { Provider } from 'react-redux'
 import { persistor, store } from './Redux/Store'
+import Cart from './pages/Cart'
 
 
 
@@ -24,6 +25,7 @@ export default function App() {
             <Route path='/About' element={<About />} />
             <Route path='/Contact' element={<Contact />} />
             <Route path="/SingleProduct/:id" element={<SingleProduct />} />
+            <Route path="/Cart" element={<Cart/>}/>
           </Routes>
           <Footer />
         </BrowserRouter>
