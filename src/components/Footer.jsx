@@ -12,13 +12,10 @@ export default function Footer() {
             <div class="col-xl-6 col-lg-4 col-sm-12">
                <div class="f-about">
                   <div class="footer-logo">
-                     <a href="javascript:void(0)">
-                     <img src="https://cdn.ayroui.com/1.0/images/footer/logo.svg" alt="Logo" />
-                     </a>
+                    
                   </div>
-                  <p class="text">
-                     Lorem Ipsum is simply dummy text of the printing and
-                     typesetting industry.
+                  <p class="text text-2xl font-bold">
+                     Beautifull Product Here!
                   </p>
                </div>
                <div class="footer-app-store">
