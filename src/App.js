@@ -18,7 +18,7 @@ export default function App() {
     <Provider store={store}>
       <PersistGate persistor={persistor}>
         <BrowserRouter>
-          <Headers />
+          {/* <Headers /> */}
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/About' element={<About />} />
