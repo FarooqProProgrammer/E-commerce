@@ -3,12 +3,13 @@ const schema = mongoose.Schema
 
 
 
-const ProductSchema = new schema({
+const CartSchema = new schema({
             name:String,
             discription:String,
             price:Number,
-            img:String
+            img:String,
+            Quantity:String
 })      
 
-const Product = mongoose.model("Product",ProductSchema)
-module.exports = Product
+const Cart = mongoose.model("Cart",CartSchema)
+module.exports = Cart
